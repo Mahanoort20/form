@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>THIS IS BEST QUIZ ON THE INTERNET!</h1>
+    
+    <form id="quiz" name="quiz">
+
+    <p>What is the capital of Rhode Island?</p>
+    <input id="textbox" type="text" name="Question1">
+
+    <p>What is the capital of Connecticut?</p>
+    <input type="radio" id="mc" name="question2" value="Hartfort">Hartfort<br>
+    <input type="radio" id="mc" name="question2" value="Hartford">Hartford<br>
+
+    <p>What is the capital of New York?</p>
+    <input type="radio" id="mc" name="question3" value="Albany">Albany<br>
+    <input type="radio" id="mc" name="question3" value="All benny's">All benny's<br>
+    <br>
+
+    <input id="button" type="button" value="I'm Finished!" onclick="check();">
+</form>
+<div id="after_submit">
+    
+    <p id="massage"></p>
+    <p id="number_correct"></p>
+    <img id="picture">
+
+    </div>
+</div>
+    
+</body>
+</html>
